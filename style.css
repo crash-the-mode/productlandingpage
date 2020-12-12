@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #111;
+	color: gold;
+}
+
+header {
+	display: flex;
+	background-color: #111;
+	position: sticky;
+	top: 0;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+	padding: 10px;
+}
+
+header > img {
+	height: 100%;
+	width: 300px;
+	min-width: 250px;
+}
+
+header > nav {
+	display: flex;
+	height: 100%;
+	width: 50%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+nav > strong > a {
+	text-decoration: none;
+	font-size: 18px;
+	color: gold;
+}
