@@ -17,13 +17,13 @@ header {
 	top: 0;
 	align-items: center;
 	justify-content: space-between;
-	height: 100px;
-	padding: 10px;
+	height: 70px;
+	padding: 5px;
 }
 
 header > img {
 	height: 100%;
-	width: 300px;
+	width: 350px;
 	min-width: 250px;
 }
 
@@ -37,6 +37,6 @@ header > nav {
 
 nav > strong > a {
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 14px;
 	color: gold;
 }
