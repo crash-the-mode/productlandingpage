@@ -19,6 +19,7 @@ header {
 	justify-content: space-between;
 	height: 70px;
 	padding: 5px;
+	border: 1px solid red;
 }
 
 header > img {
@@ -35,8 +36,60 @@ header > nav {
 	justify-content: space-around;
 }
 
-nav > strong > a {
+.nav-link {
 	text-decoration: none;
 	font-size: 14px;
 	color: gold;
+}
+
+main {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+.nav-div {
+	width: 70%;
+	margin: auto;
+	text-align: left;
+	padding-top: 70px;
+}
+
+dt {
+	font-size: 200%;
+}
+
+@media (max-width: 1280px) {
+	main: {
+		width: 80%;
+	}
+
+	.nav-div {
+		width: 80%;
+	}
+}
+
+@media (max-width: 768px) {
+	header {
+		flex-direction: column;
+		height: initial;
+	}
+
+	#header-img {
+		width: 100%;
+	}
+
+	#nav-bar {
+		width: 100%;
+		margin-top: 1rem;
+	}
+
+	main {
+		width: 90%;
+	}
+
+	.nav-div {
+		width: 100%;
+		padding-top: 80px;
+	}
 }
