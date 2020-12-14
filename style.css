@@ -142,3 +142,19 @@ h2 {
 		padding-top: 80px;
 	}
 }
+
+@media (max-width: 480px) {
+	header {
+		min-width: 360px;
+	}
+	header > img {
+		min-width: 360px;
+	}
+	header > nav {
+		flex-direction: column;
+	}
+	#requirements {
+		flex-direction: column;
+		align-items: center;
+	}
+}
