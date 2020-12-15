@@ -85,6 +85,7 @@ h2 {
 #requirements {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 1rem;
 }
 
 #requirements > div {
@@ -102,35 +103,46 @@ h2 {
 	margin: .5rem 0 .5rem 0;
 }
 
-#requirements > div > button {
+.weapon {
+	font-size: 2rem;
+}
+
+.button {
 	margin: 1rem 0 1rem 0;
 	font-size: 16px;
 	padding: 1rem;
+	border-style: none;
+	color: gold;
+	background-color: #111;
+	border: 1px solid red;
+	border-radius: 8px;
 }
 
 footer {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 	flex-direction: column;
-	width: 1440px;
-	margin: 1rem 0 1rem 0;
-	padding: 0 2rem 0 0;
+	margin: auto;
+	padding: 0 2rem 0 2rem;
+	margin-bottom: 1rem;
 }
 
 footer > div > a {
 	margin-left: 1rem;
 	text-decoration: none;
-	color: yellow;
+	color: gold;
 }
 
 footer > p {
 	margin-top: .5rem;
 }
 
-@media (max-width: 1440px) {
-	footer {
-		width: 100%;
-	}
+a:hover {
+	color: firebrick;
+}
+
+.button:hover {
+	background-color: firebrick;
 }
 
 @media (max-width: 1280px) {
@@ -172,6 +184,10 @@ footer > p {
 	header {
 		min-width: 360px;
 	}
+	
+	main {
+		min-width: 360px;
+	}
 
 	#header-img {
 		min-width: 360px;
@@ -184,5 +200,10 @@ footer > p {
 	#requirements {
 		flex-direction: column;
 		align-items: center;
+	}
+	
+	footer  {
+		align-items: center;
+		min-width: 360px;
 	}
 }
